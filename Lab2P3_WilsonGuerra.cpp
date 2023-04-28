@@ -15,6 +15,7 @@ int main() {
 	int opcion = 0;
     int size = 0;
     int entero = 0;
+    int resultado = 0;
 	while (true) {
 		cout << " MENU PRINCIPAL:\n1. Ordenamiento y omision en arreglos\n2. Factoriales y figuras\n3. Salir\nIngrese una opcion:\n" << endl;
 		cin >> opcion;
@@ -66,7 +67,15 @@ int main() {
                 cout << "Ingrese un numero entero positivo:";
                 cin >> entero;
             }
-            cout << "El factorial de " << entero << " es " << factorial(entero) << endl;
+            resultado = factorial(entero);
+            cout << "El factorial de " << entero << " es " << resultado << endl;
+            for (int i = 1; i <= entero; i++) {
+                for (int j = 1; j <= i; j++) {
+                    cout << "*";
+                }
+                cout << endl;
+            }
+
 			break;
 		case 3:
 			exit(1);
