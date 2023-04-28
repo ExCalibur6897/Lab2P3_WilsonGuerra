@@ -1,0 +1,3 @@
+﻿  Lab2P3_WilsonGuerra.cpp
+C:\Users\excal\source\repos\Lab2P3_WilsonGuerra\Lab2P3_WilsonGuerra\Lab2P3_WilsonGuerra.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab2P3_WilsonGuerra.vcxproj -> C:\Users\excal\source\repos\Lab2P3_WilsonGuerra\x64\Debug\Lab2P3_WilsonGuerra.exe
